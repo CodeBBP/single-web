@@ -1,0 +1,26 @@
+/**
+ * Copyright (c) 2005-2012 https://github.com/zhangkaitao
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ */
+package com.bbp.showcase.move.repository;
+
+import com.bbp.common.repository.BaseRepository;
+import com.bbp.showcase.move.entity.Move;
+
+/**
+ * 包名：com.bbp.showcase.move.repository
+ * <p>
+ * 作者：mrbbp@qq.com
+ * <p>
+ * 创建时间：2018/3/14  9:22
+ * <p>
+ * 描述：
+ *  
+ */
+public interface MoveRepository extends BaseRepository<Move, Long> {
+
+
+}
+
+
